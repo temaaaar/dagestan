@@ -1,0 +1,169 @@
+*{font-family: 'Montserrat', sans-serif;}
+body {margin: 0;}
+.container {width: 65%; margin: 0 auto;}
+
+/*Стили для шапки*/
+
+.logo               {width: 20%;}
+nav                 {width: 60%;}
+nav a               {color: #141517;  font-weight:350;}
+.flex               {display: flex; align-items: center; padding: 30px 0;}
+.flex_end           {display: flex; justify-content: flex-end;}
+.flex_end a         {text-decoration: none; padding: 0% 20px;}
+.tel                {width: 20%; text-align: right; font-weight:350; text-decoration-line: underline; 
+                    display: flex; align-items: center; justify-content: space-evenly;}
+.tel a              {color: #141517;}
+.flex_end a:hover   {text-decoration: underline;}
+
+/*Стили для промо*/
+
+.promo          {background: url(dagestan.jpg); background-position: 50% 50%; height: 1080px; background-repeat: no-repeat;}
+.promo_block    {color: white; width: 408px; margin: 200px 0; margin-right: 80px;}
+.promo_block h1 {margin: 0; font-size: 55px; letter-spacing: 2px}
+.promo_block p  {font-size: 16px; margin-top: 40px; line-height: 30px;}
+.promo_btn      {background: #4188b2; padding: 30px; display:flex; justify-content: space-between; margin-top: 40px;}
+.promo_btn a    {color: white; font-size: 12px; letter-spacing: 2px;}
+
+/*Стили для каталога*/
+
+.catalog                {height: 1360px;}
+.catalog h1             {font-size: 55px; letter-spacing: 2px; color:#2C2E3F;}
+.catalog h1::after      {content: ""; display: block; background: #c4ae99; height: 5px; width: 200px; margin-top: 50px;}
+.catalog p              {letter-spacing: 1px; color: #2C2E3F;} 
+.catalog_block          {display: flex; flex-wrap: wrap; justify-content: space-evenly;}
+.catalog_items          {margin: 20px 0;}
+.catalog_padding        {padding: 20px; position: relative;} 
+.catalog_padding img    {width: 100%; width: 350px; height: 430px;}
+.catalog_title          {position: absolute; bottom: 20px; left: 95px; background: white; width: 196px; height: 50px; display: flex;
+                        justify-content: space-evenly;align-items: center; font-size: 16px;}
+
+/*Стили для podrobnee*/
+
+.loclist            {width: 85%; display: flex; flex-direction: column;}
+.loclist a          {font-size: 18px; color: #2c2e3f69; text-decoration: none; padding: 0 30px;}
+.loclist::after     {content: ""; display: block; background:#2c2e3f2b; width: 1016px; height: 2px; margin-top: 10px; margin-left: 0;}
+
+.frame              {background: url(fRAME.png); right: 500px; margin: 70px auto; background-size: contain; height: 1870px;}
+
+.sulaks h1          {font-size: 55px; color: #2C2E3F; padding: 0; margin: 0;}
+.sulaks h1::after   {content: ""; display: block; background: #c4ae99; height: 5px; width: 200px; margin-top: 25px; margin-bottom: 25px;}
+.sulaks p           {line-height: 30px; color: #2C2E3F; font-size: 16px;}
+
+.kanyon2            {height: 580px; width: 400px; display: flex; justify-content: center; top: 71.4cm; margin: 0 500px; position: absolute;}
+
+.btn2               {background:#4188b2;color: white; padding: 30px; display: flex; justify-content: center; margin-top: 40px; width: 250px;}
+.btn2 a             {color: white; font-size: 12px; letter-spacing: 3px; text-decoration: none; font-weight: 300;}
+.btn2 a:hover       {text-decoration: underline;}
+
+/*REVIEW и чето еще*/
+
+.div3                   {height: 2450px;}
+.container2             {width: 65%; margin: 0 auto;}
+.review                 {display: flex; flex-direction: column; width: 400px; height: 850px;}
+
+.text_review            {background: rgba(255, 255, 255, 0.996); position: relative; left: 710px; bottom: 530px; padding: 50px; width: 450px; height: 300px;}
+.text_review h2         {font-size: 40px; margin: 0; color: #2C2E3F;}
+.text_review h2::after  {content: ""; display: block; background: #c4ae99; height: 2px; width: 100px; margin-top: 25px; margin-bottom: 25px;}
+.text_review p          {line-height: 35px; color: #2c2e3fca;}
+.name                   {font-weight: 500;}
+.Sveta                  {display: flex; border-radius: 50px; align-items: center; margin: 10px 200px 10px 0;}
+
+.Sveta p                {padding: 0 0 0 20px}
+.Sveta img              {border-radius: 100%; width: 50px; height: 50px;}
+
+/*Варианты туров*/
+
+.container33        {display: flex; justify-content: space-evenly;}
+.complex            {width: 335px; height: 670px; border: #c4ae99 solid 3px; border-radius: 7px; padding: 25px; background: white; margin-right: 20px;}
+.complex h2         {color: #ba8758; margin-bottom: 45px; font-size: 25px; text-align: center; letter-spacing: 2px; text-align: left;}
+.complex p          {line-height: 27px; font-size: 18px; text-align: left;}
+.complex ul         {list-style-image: url(icon.png);font-size: 16px; line-height:35px; text-align: left;}
+.complex p::after   {content: ""; display: block; background:#c4ae99; width: 310px; height: 2px; margin-bottom: 40px; margin-top: 35px;}
+
+.btn3               {background:#c4ae99;color: white; padding: 30px; margin-top: 40px; width: 250px; margin-left: auto; margin-right: auto;}
+.btn3 a             {color: white; font-size: 12.5px; letter-spacing: 3px; text-decoration: none; font-weight: 300; margin-left: 25px;}
+.btn3 a:hover       {text-decoration: underline;}
+
+.econome            {width: 335px; height: 670px; border: #2c2e3f34 solid 2px; border-radius: 7px; padding: 25px; background: white;}
+.econome h2         {color: #141517ce; margin-bottom: 45px; font-size: 25px; text-align: center; letter-spacing: 2px; text-align: left;}
+.econome p          {line-height: 27px; font-size: 18px; text-align: left;}
+.econome ul         {list-style-image: url(Path.png);font-size: 16px; line-height:35px; text-align: left;}
+
+
+.econome p::after   {content: ""; display: block; background:#2c2e3f2b; width: 310px; height: 2px; margin-bottom: 40px; margin-top: 35px;}
+
+.btn4               {background:#c4ae99;color: white; padding: 30px; margin-top: 30px; width: 250px; margin-left: auto; margin-right: auto;}
+.btn4 a             {color: white; font-size: 12.5px; letter-spacing: 3px; text-decoration: none; font-weight: 300; margin-left: 25px;}
+.btn4 a:hover       {text-decoration: underline;}
+
+.price              {width: 335px; height: 670px; padding: 25px; padding-left: 75px; padding-top: 100px;}
+.price h2           {color: #141517ce; margin-bottom: 45px; font-size: 55px; text-align: center; letter-spacing: 2px; text-align: left;}
+.price h2::after    {content: ""; display: block; background: #c4ae99; height: 3px; width: 200px; margin-top: 25px; margin-bottom: 25px;}
+.price p            {line-height: 27px; font-size: 18px; text-align: left; color: #2c2e3fc6;}
+.price h3           {color: #141517ce;  padding-top: 35px;}
+ 
+.pricecall img      {padding: 0px 20px 0px 0px; }
+.pricecall          {display: flex; align-items: center; justify-content: flex-start;}
+
+/*У ВАС ОСТАЛИСЬ ВОПРОСЫ?????????????????????????????????????*/
+
+.haveq              {position: relative; height: 490px; top: -225px;}
+.tablehaveq         {background-color: white; width: 656px; height: 280px; padding: 30px; margin-right: 100px; position: relative; top: -400px; right: -527px;} 
+.tablehaveq h3      {font-size: 32px; color:#141517; text-align: center;}
+.tablehaveq h4      {font-size: 16px; color: #141517;text-align: center; font-weight: 400;}
+.tablehaveq p       {font-size: 16px; border: #2c2e3f48 solid 1px; width: 260px; padding: 15px;}
+.ramki              {display: flex; justify-content: space-evenly;}
+.promo_btn2         {background:#4188b2; color: white; padding: 18px; width: 176px; text-align: center; top: -475px; right: -775px; position: relative;}
+.promo_btn2 a       {color: white; font-size: 12px; letter-spacing: 3px; text-decoration: none; font-weight: 300;}
+.promo_btn2 a:hover {text-decoration: underline;}
+
+
+/*ПОДВАЛ*/
+
+.container4         {width: 65%; margin: 0 auto;}
+.lastdiv            {display: flex; padding: 0 0 50px 0;}
+
+.step1              {width: 33%; padding: 0 20px 20px 0; position: relative; display: flex; flex-direction: column; border-right: #2c2e3f24 solid 1px;}
+.column             {columns: 3;}
+.column a           {color: #1415177c; font-size: 16px; line-height: 30px; text-decoration: none; white-space: nowrap;}
+.column a:hover     {text-decoration: underline;}
+
+.step2              {width: 33%; display: flex; flex-direction: column; align-items: center; border-right: #2c2e3f24 solid 1px;}
+.step2 a            {font-size: 16px; text-decoration: none; color:#ba8758}
+.step2 a:hover      {text-decoration: underline;}
+.step2 img          {margin-right: 20px;}
+
+.step3              {width: 43%; color: #1415177c; display: flex; flex-direction: column; ; margin-left: 20px;}
+.step3 h2           {color: #141517;}
+.step3 p            {color: #1415177c;  margin: 0;  font-size: 16px; line-height: 1.4;}
+
+
+@media screen and (max-width: 480px)
+{
+    .container          {width: 90%;}
+    .catalog_items, nav {width: 100%;}
+    .flex, .flex_end    {display: block;}
+    .logo               {width: 100%; text-align: center;}
+    .flex_end a         {display: block; text-align: center; padding: 10px 20px;}
+    .tel                {text-align: center; width: 100%; justify-content: center; align-items: center;}
+    .tel img            {margin-right: 15px;}
+    .promo              {background: url(dagestan_mobile.jpg); width: 480px; height: 450px;}
+    .promo_block        {width: 100%; margin: 0; padding-bottom:50px;}
+    .promo_block h1     {padding-top: 20px; font-size: 40px; text-align: center;}
+    .promo_block p      {font-size: 15px; line-height: 1.5; font-weight: 400; text-align: left; margin-top: 65px;}
+    .promo_btn img      {height: 18px; width: auto; position: relative; top: 7px;}
+    .promo_btn          {vertical-align: middle; margin-top: 65px;}
+    .catalog_block img  {margin: 0; box-sizing: content-box;}
+    .catalog h1         {font-size: 40px; text-align: center;}
+    .catalog h1::after  {width: 50%; margin: 25px auto;}
+}
+
+@media screen and (max-width: 1024px) and (min-width: 481px)
+{ 
+    .container {width: 95%}
+    .promo     {background: url(dagestan.jpg); width: 1024px; height: 650px;}
+    .div3 {margin-top: 500px;}
+            
+    
+}
+
